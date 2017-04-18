@@ -6,9 +6,9 @@
 #SBATCH -p core
 #SBATCH -n 2
 #SBATCH -t 20:00:00
-#SBATCH --error=filterdup.err
-#SBATCH --output=filterdup.out
-#SBATCH -J liver.ChIP.randsample
+#SBATCH --error=callpeak..err
+#SBATCH --output=callpeak.out
+#SBATCH -J liver.ChIP.callpeak
 
 module load python/2.7
 
@@ -47,6 +47,22 @@ do
           -c ${fListInput} \
           -g mm \
           -n ${fOut} \
-          -q 0.01 2> ${fOut}.macscallpeak.log
+          -q 0.01 &> ${fOut}.macscallpeak.log
+
+    ${HOME}/bin/macs2 callpeak \
+          -t ${fIn}.bed \
+          -c ${fListInput} \
+          -g mm \
+          --broad \
+          -n ${fOut}.BroadPeak \
+          -q 0.01 &> ${fOut}.macscallbroadpeak.log
+    
+    ${HOME}/bin/macs2 callpeak \
+          -t ${fIn}.bed \
+          -c ${fListInput} \
+          --call-summits \
+          -g mm \
+          -n ${fOut}.CallSummit \
+          -q 0.01 &> ${fOut}.macscallsummits.log
   done
 done 

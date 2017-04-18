@@ -1,0 +1,36 @@
+Author: Hassan
+Dec 2016.
+Procedure to remove overrepresented sequences:
+
+1. run convertToCol.sh to convert your "fastq.gz" file to a column format. It will output to stdout (i.e. terminal). You can
+pipe the output into separate file or just pipe it into the next script in step 2. But for removing overrepresented
+sequences, we need this as a separate file.
+
+2. run sequenceCount.sh to count how many time a sequence appears in the fastq file. The output for this one is stdout
+by default, and it can read input from convertToCol.sh. Make sure your write the output of this file to a plain text
+file.
+
+3. run extractOverrepRawRNAseq.sh on step 2's output to get a list of overrepreented sequences. Again, the output is
+stdout. This script will get list of overrepresented sequences if and only if they are 0.1% of total number of reads. I
+highly recommend to run this "before" removing rRNA, and after truncating adaptors. 
+
+4. finally, run removeSequence.sh with two input files: first input from step one, and second input from step 3. Output
+for this script is also stdout, so make sure you assign it to a proper file. The output after this step will be a
+conventional fastq file format, which can be fed into various sequence processing softwares.
+
+
+Example:
+#conver to collumn
+./convertToCol.sh ../Sample01_12AH_0022_control/Sample01_12AH_0022_control.tc.rmrRNA.fastq.gz > Sample01.col.fastq
+
+#count sequence occurences
+./sequenceCount.sh Sample01.col.fastq > Sample01.col.fastq.sequenceCount 
+
+#extract list overrepresented sequences
+./extractOverrepRawRNAseq.sh Sample01.col.fastq.sequenceCount > Sample01.col.fastq.overrep
+
+#remove overpresented sequences and convert back to fastq format.
+./removeSequence.sh Sample01.col.fastq Sample01.col.fastq.overrep > Sample01.col.remmoveOverRep.fastq
+
+
+
