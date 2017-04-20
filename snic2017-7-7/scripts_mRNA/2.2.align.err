@@ -1,0 +1,699 @@
+
+[2017-04-10 18:26:30] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-04-10 18:26:30] Checking for Bowtie
+		  Bowtie version:	 2.3.1.0
+[2017-04-10 18:26:30] Checking for Bowtie index files (transcriptome)..
+[2017-04-10 18:26:30] Checking for Bowtie index files (genome)..
+[2017-04-10 18:26:30] Checking for reference FASTA file
+[2017-04-10 18:26:30] Generating SAM header for /crex1/proj/snic2017-7-7/INBOX/IO/ref/Genome/GRCh38.p7.genome
+[2017-04-10 18:26:39] Reading known junctions from GTF file
+[2017-04-10 18:27:06] Pre-filtering multi-mapped left reads
+[2017-04-10 18:27:06] Mapping AE1_ACAGTG_L008_R1_001 to genome GRCh38.p7.genome with Bowtie2 
+[2017-04-10 18:34:05] Preparing reads
+	 left reads: min. length=55, max. length=55, 7266967 kept reads (1634171 discarded)
+[2017-04-10 18:35:53] Using pre-built transcriptome data..
+[2017-04-10 18:35:57] Mapping left_kept_reads to transcriptome gencode.v25.annotation with Bowtie2 
+[2017-04-10 18:38:58] Resuming TopHat pipeline with unmapped reads
+[2017-04-10 18:39:47] Mapping left_kept_reads.m2g_um_seg1 to genome GRCh38.p7.genome with Bowtie2 (1/2)
+[2017-04-10 18:40:02] Mapping left_kept_reads.m2g_um_seg2 to genome GRCh38.p7.genome with Bowtie2 (2/2)
+[2017-04-10 18:40:28] Retrieving sequences for splices
+[2017-04-10 18:41:58] Indexing splices
+Building a SMALL index
+[2017-04-10 18:42:20] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-04-10 18:42:27] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-04-10 18:42:34] Joining segment hits
+[2017-04-10 18:44:08] Reporting output tracks
+-----------------------------------------------
+[2017-04-10 18:49:35] A summary of the alignment counts can be found in /crex1/proj/snic2017-7-7/INBOX/IO/seqs/RNA//AE1_ACAGTG_L008_R1_001/align_summary.txt
+[2017-04-10 18:49:35] Run complete: 00:23:05 elapsed
+
+[2017-04-10 18:49:36] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-04-10 18:49:36] Checking for Bowtie
+		  Bowtie version:	 2.3.1.0
+[2017-04-10 18:49:36] Checking for Bowtie index files (transcriptome)..
+[2017-04-10 18:49:36] Checking for Bowtie index files (genome)..
+[2017-04-10 18:49:36] Checking for reference FASTA file
+[2017-04-10 18:49:36] Generating SAM header for /crex1/proj/snic2017-7-7/INBOX/IO/ref/Genome/GRCh38.p7.genome
+[2017-04-10 18:49:38] Reading known junctions from GTF file
+[2017-04-10 18:50:06] Pre-filtering multi-mapped left reads
+[2017-04-10 18:50:06] Mapping AE1_ACTGAT_L008_R1_001 to genome GRCh38.p7.genome with Bowtie2 
+[2017-04-10 18:56:48] Preparing reads
+	 left reads: min. length=55, max. length=55, 6501840 kept reads (1193567 discarded)
+[2017-04-10 18:58:24] Using pre-built transcriptome data..
+[2017-04-10 18:58:27] Mapping left_kept_reads to transcriptome gencode.v25.annotation with Bowtie2 
+[2017-04-10 19:01:07] Resuming TopHat pipeline with unmapped reads
+[2017-04-10 19:01:47] Mapping left_kept_reads.m2g_um_seg1 to genome GRCh38.p7.genome with Bowtie2 (1/2)
+[2017-04-10 19:02:07] Mapping left_kept_reads.m2g_um_seg2 to genome GRCh38.p7.genome with Bowtie2 (2/2)
+[2017-04-10 19:02:28] Retrieving sequences for splices
+[2017-04-10 19:04:03] Indexing splices
+Building a SMALL index
+[2017-04-10 19:04:27] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-04-10 19:04:33] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-04-10 19:04:40] Joining segment hits
+[2017-04-10 19:06:18] Reporting output tracks
+-----------------------------------------------
+[2017-04-10 19:11:53] A summary of the alignment counts can be found in /crex1/proj/snic2017-7-7/INBOX/IO/seqs/RNA//AE1_ACTGAT_L008_R1_001/align_summary.txt
+[2017-04-10 19:11:53] Run complete: 00:22:17 elapsed
+
+[2017-04-10 19:11:54] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-04-10 19:11:54] Checking for Bowtie
+		  Bowtie version:	 2.3.1.0
+[2017-04-10 19:11:54] Checking for Bowtie index files (transcriptome)..
+[2017-04-10 19:11:54] Checking for Bowtie index files (genome)..
+[2017-04-10 19:11:54] Checking for reference FASTA file
+[2017-04-10 19:11:54] Generating SAM header for /crex1/proj/snic2017-7-7/INBOX/IO/ref/Genome/GRCh38.p7.genome
+[2017-04-10 19:11:57] Reading known junctions from GTF file
+[2017-04-10 19:12:25] Pre-filtering multi-mapped left reads
+[2017-04-10 19:12:25] Mapping AE1_ACTTGA_L008_R1_001 to genome GRCh38.p7.genome with Bowtie2 
+[2017-04-10 19:19:34] Preparing reads
+	 left reads: min. length=55, max. length=55, 7289371 kept reads (1854990 discarded)
+[2017-04-10 19:21:25] Using pre-built transcriptome data..
+[2017-04-10 19:21:28] Mapping left_kept_reads to transcriptome gencode.v25.annotation with Bowtie2 
+[2017-04-10 19:24:33] Resuming TopHat pipeline with unmapped reads
+[2017-04-10 19:25:20] Mapping left_kept_reads.m2g_um_seg1 to genome GRCh38.p7.genome with Bowtie2 (1/2)
+[2017-04-10 19:25:47] Mapping left_kept_reads.m2g_um_seg2 to genome GRCh38.p7.genome with Bowtie2 (2/2)
+[2017-04-10 19:26:13] Retrieving sequences for splices
+[2017-04-10 19:27:48] Indexing splices
+Building a SMALL index
+[2017-04-10 19:28:12] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-04-10 19:28:19] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-04-10 19:28:26] Joining segment hits
+[2017-04-10 19:30:06] Reporting output tracks
+-----------------------------------------------
+[2017-04-10 19:36:06] A summary of the alignment counts can be found in /crex1/proj/snic2017-7-7/INBOX/IO/seqs/RNA//AE1_ACTTGA_L008_R1_001/align_summary.txt
+[2017-04-10 19:36:06] Run complete: 00:24:12 elapsed
+
+[2017-04-10 19:36:07] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-04-10 19:36:07] Checking for Bowtie
+		  Bowtie version:	 2.3.1.0
+[2017-04-10 19:36:07] Checking for Bowtie index files (transcriptome)..
+[2017-04-10 19:36:07] Checking for Bowtie index files (genome)..
+[2017-04-10 19:36:07] Checking for reference FASTA file
+[2017-04-10 19:36:07] Generating SAM header for /crex1/proj/snic2017-7-7/INBOX/IO/ref/Genome/GRCh38.p7.genome
+[2017-04-10 19:36:10] Reading known junctions from GTF file
+[2017-04-10 19:36:39] Pre-filtering multi-mapped left reads
+[2017-04-10 19:36:39] Mapping AE1_AGTCAA_L008_R1_001 to genome GRCh38.p7.genome with Bowtie2 
+[2017-04-10 19:43:56] Preparing reads
+	 left reads: min. length=55, max. length=55, 6980265 kept reads (2452192 discarded)
+[2017-04-10 19:45:55] Using pre-built transcriptome data..
+[2017-04-10 19:45:58] Mapping left_kept_reads to transcriptome gencode.v25.annotation with Bowtie2 
+[2017-04-10 19:48:52] Resuming TopHat pipeline with unmapped reads
+[2017-04-10 19:49:40] Mapping left_kept_reads.m2g_um_seg1 to genome GRCh38.p7.genome with Bowtie2 (1/2)
+[2017-04-10 19:49:58] Mapping left_kept_reads.m2g_um_seg2 to genome GRCh38.p7.genome with Bowtie2 (2/2)
+[2017-04-10 19:50:27] Retrieving sequences for splices
+[2017-04-10 19:52:00] Indexing splices
+Building a SMALL index
+[2017-04-10 19:52:22] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-04-10 19:52:29] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-04-10 19:52:39] Joining segment hits
+[2017-04-10 19:54:11] Reporting output tracks
+-----------------------------------------------
+[2017-04-10 19:59:24] A summary of the alignment counts can be found in /crex1/proj/snic2017-7-7/INBOX/IO/seqs/RNA//AE1_AGTCAA_L008_R1_001/align_summary.txt
+[2017-04-10 19:59:24] Run complete: 00:23:17 elapsed
+
+[2017-04-10 19:59:24] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-04-10 19:59:24] Checking for Bowtie
+		  Bowtie version:	 2.3.1.0
+[2017-04-10 19:59:24] Checking for Bowtie index files (transcriptome)..
+[2017-04-10 19:59:24] Checking for Bowtie index files (genome)..
+[2017-04-10 19:59:24] Checking for reference FASTA file
+[2017-04-10 19:59:24] Generating SAM header for /crex1/proj/snic2017-7-7/INBOX/IO/ref/Genome/GRCh38.p7.genome
+[2017-04-10 19:59:27] Reading known junctions from GTF file
+[2017-04-10 19:59:54] Pre-filtering multi-mapped left reads
+[2017-04-10 19:59:54] Mapping AE1_AGTTCC_L008_R1_001 to genome GRCh38.p7.genome with Bowtie2 
+[2017-04-10 20:06:45] Preparing reads
+	 left reads: min. length=55, max. length=55, 6878439 kept reads (1619206 discarded)
+[2017-04-10 20:08:29] Using pre-built transcriptome data..
+[2017-04-10 20:08:32] Mapping left_kept_reads to transcriptome gencode.v25.annotation with Bowtie2 
+[2017-04-10 20:11:22] Resuming TopHat pipeline with unmapped reads
+[2017-04-10 20:12:07] Mapping left_kept_reads.m2g_um_seg1 to genome GRCh38.p7.genome with Bowtie2 (1/2)
+[2017-04-10 20:12:22] Mapping left_kept_reads.m2g_um_seg2 to genome GRCh38.p7.genome with Bowtie2 (2/2)
+[2017-04-10 20:12:47] Retrieving sequences for splices
+[2017-04-10 20:14:14] Indexing splices
+Building a SMALL index
+[2017-04-10 20:14:35] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-04-10 20:14:43] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-04-10 20:14:50] Joining segment hits
+[2017-04-10 20:16:24] Reporting output tracks
+-----------------------------------------------
+[2017-04-10 20:21:40] A summary of the alignment counts can be found in /crex1/proj/snic2017-7-7/INBOX/IO/seqs/RNA//AE1_AGTTCC_L008_R1_001/align_summary.txt
+[2017-04-10 20:21:40] Run complete: 00:22:15 elapsed
+
+[2017-04-10 20:21:40] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-04-10 20:21:40] Checking for Bowtie
+		  Bowtie version:	 2.3.1.0
+[2017-04-10 20:21:40] Checking for Bowtie index files (transcriptome)..
+[2017-04-10 20:21:40] Checking for Bowtie index files (genome)..
+[2017-04-10 20:21:40] Checking for reference FASTA file
+[2017-04-10 20:21:40] Generating SAM header for /crex1/proj/snic2017-7-7/INBOX/IO/ref/Genome/GRCh38.p7.genome
+[2017-04-10 20:21:43] Reading known junctions from GTF file
+[2017-04-10 20:22:11] Pre-filtering multi-mapped left reads
+[2017-04-10 20:22:11] Mapping AE1_ATCACG_L008_R1_001 to genome GRCh38.p7.genome with Bowtie2 
+[2017-04-10 20:25:49] Preparing reads
+	 left reads: min. length=55, max. length=55, 3807063 kept reads (723996 discarded)
+[2017-04-10 20:26:44] Using pre-built transcriptome data..
+[2017-04-10 20:26:47] Mapping left_kept_reads to transcriptome gencode.v25.annotation with Bowtie2 
+[2017-04-10 20:28:20] Resuming TopHat pipeline with unmapped reads
+[2017-04-10 20:28:45] Mapping left_kept_reads.m2g_um_seg1 to genome GRCh38.p7.genome with Bowtie2 (1/2)
+[2017-04-10 20:28:55] Mapping left_kept_reads.m2g_um_seg2 to genome GRCh38.p7.genome with Bowtie2 (2/2)
+[2017-04-10 20:29:11] Retrieving sequences for splices
+[2017-04-10 20:30:44] Indexing splices
+Building a SMALL index
+[2017-04-10 20:31:06] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-04-10 20:31:11] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-04-10 20:31:18] Joining segment hits
+[2017-04-10 20:32:48] Reporting output tracks
+-----------------------------------------------
+[2017-04-10 20:36:13] A summary of the alignment counts can be found in /crex1/proj/snic2017-7-7/INBOX/IO/seqs/RNA//AE1_ATCACG_L008_R1_001/align_summary.txt
+[2017-04-10 20:36:13] Run complete: 00:14:32 elapsed
+
+[2017-04-10 20:36:13] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-04-10 20:36:13] Checking for Bowtie
+		  Bowtie version:	 2.3.1.0
+[2017-04-10 20:36:13] Checking for Bowtie index files (transcriptome)..
+[2017-04-10 20:36:13] Checking for Bowtie index files (genome)..
+[2017-04-10 20:36:13] Checking for reference FASTA file
+[2017-04-10 20:36:13] Generating SAM header for /crex1/proj/snic2017-7-7/INBOX/IO/ref/Genome/GRCh38.p7.genome
+[2017-04-10 20:36:15] Reading known junctions from GTF file
+[2017-04-10 20:36:43] Pre-filtering multi-mapped left reads
+[2017-04-10 20:36:43] Mapping AE1_ATGTCA_L008_R1_001 to genome GRCh38.p7.genome with Bowtie2 
+[2017-04-10 20:43:34] Preparing reads
+	 left reads: min. length=55, max. length=55, 7255655 kept reads (1584493 discarded)
+[2017-04-10 20:45:21] Using pre-built transcriptome data..
+[2017-04-10 20:45:24] Mapping left_kept_reads to transcriptome gencode.v25.annotation with Bowtie2 
+[2017-04-10 20:48:54] Resuming TopHat pipeline with unmapped reads
+[2017-04-10 20:49:38] Mapping left_kept_reads.m2g_um_seg1 to genome GRCh38.p7.genome with Bowtie2 (1/2)
+[2017-04-10 20:50:01] Mapping left_kept_reads.m2g_um_seg2 to genome GRCh38.p7.genome with Bowtie2 (2/2)
+[2017-04-10 20:50:53] Retrieving sequences for splices
+[2017-04-10 20:52:17] Indexing splices
+Building a SMALL index
+[2017-04-10 20:52:37] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-04-10 20:52:48] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-04-10 20:53:02] Joining segment hits
+[2017-04-10 20:54:34] Reporting output tracks
+-----------------------------------------------
+[2017-04-10 20:59:48] A summary of the alignment counts can be found in /crex1/proj/snic2017-7-7/INBOX/IO/seqs/RNA//AE1_ATGTCA_L008_R1_001/align_summary.txt
+[2017-04-10 20:59:48] Run complete: 00:23:35 elapsed
+
+[2017-04-10 20:59:48] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-04-10 20:59:48] Checking for Bowtie
+		  Bowtie version:	 2.3.1.0
+[2017-04-10 20:59:49] Checking for Bowtie index files (transcriptome)..
+[2017-04-10 20:59:49] Checking for Bowtie index files (genome)..
+[2017-04-10 20:59:49] Checking for reference FASTA file
+[2017-04-10 20:59:49] Generating SAM header for /crex1/proj/snic2017-7-7/INBOX/IO/ref/Genome/GRCh38.p7.genome
+[2017-04-10 20:59:51] Reading known junctions from GTF file
+[2017-04-10 21:00:18] Pre-filtering multi-mapped left reads
+[2017-04-10 21:00:18] Mapping AE1_ATTCCT_L008_R1_001 to genome GRCh38.p7.genome with Bowtie2 
+[2017-04-10 21:08:30] Preparing reads
+	 left reads: min. length=55, max. length=55, 7555970 kept reads (1631507 discarded)
+[2017-04-10 21:10:13] Using pre-built transcriptome data..
+[2017-04-10 21:10:16] Mapping left_kept_reads to transcriptome gencode.v25.annotation with Bowtie2 
+[2017-04-10 21:13:36] Resuming TopHat pipeline with unmapped reads
+[2017-04-10 21:14:22] Mapping left_kept_reads.m2g_um_seg1 to genome GRCh38.p7.genome with Bowtie2 (1/2)
+[2017-04-10 21:14:35] Mapping left_kept_reads.m2g_um_seg2 to genome GRCh38.p7.genome with Bowtie2 (2/2)
+[2017-04-10 21:15:25] Retrieving sequences for splices
+[2017-04-10 21:16:54] Indexing splices
+Building a SMALL index
+[2017-04-10 21:17:16] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-04-10 21:17:22] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-04-10 21:17:34] Joining segment hits
+[2017-04-10 21:19:07] Reporting output tracks
+-----------------------------------------------
+[2017-04-10 21:24:50] A summary of the alignment counts can be found in /crex1/proj/snic2017-7-7/INBOX/IO/seqs/RNA//AE1_ATTCCT_L008_R1_001/align_summary.txt
+[2017-04-10 21:24:50] Run complete: 00:25:01 elapsed
+
+[2017-04-10 21:24:50] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-04-10 21:24:50] Checking for Bowtie
+		  Bowtie version:	 2.3.1.0
+[2017-04-10 21:24:50] Checking for Bowtie index files (transcriptome)..
+[2017-04-10 21:24:50] Checking for Bowtie index files (genome)..
+[2017-04-10 21:24:50] Checking for reference FASTA file
+[2017-04-10 21:24:50] Generating SAM header for /crex1/proj/snic2017-7-7/INBOX/IO/ref/Genome/GRCh38.p7.genome
+[2017-04-10 21:24:53] Reading known junctions from GTF file
+[2017-04-10 21:25:20] Pre-filtering multi-mapped left reads
+[2017-04-10 21:25:20] Mapping AE1_CAGATC_L008_R1_001 to genome GRCh38.p7.genome with Bowtie2 
+[2017-04-10 21:33:27] Preparing reads
+	 left reads: min. length=55, max. length=55, 5104814 kept reads (3141054 discarded)
+[2017-04-10 21:35:12] Using pre-built transcriptome data..
+[2017-04-10 21:35:15] Mapping left_kept_reads to transcriptome gencode.v25.annotation with Bowtie2 
+[2017-04-10 21:39:58] Resuming TopHat pipeline with unmapped reads
+[2017-04-10 21:41:03] Mapping left_kept_reads.m2g_um_seg1 to genome GRCh38.p7.genome with Bowtie2 (1/2)
+[2017-04-10 21:42:06] Mapping left_kept_reads.m2g_um_seg2 to genome GRCh38.p7.genome with Bowtie2 (2/2)
+[2017-04-10 21:44:43] Retrieving sequences for splices
+[2017-04-10 21:46:16] Indexing splices
+Building a SMALL index
+[2017-04-10 21:46:39] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-04-10 21:46:55] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-04-10 21:47:11] Joining segment hits
+[2017-04-10 21:48:55] Reporting output tracks
+-----------------------------------------------
+[2017-04-10 21:51:58] A summary of the alignment counts can be found in /crex1/proj/snic2017-7-7/INBOX/IO/seqs/RNA//AE1_CAGATC_L008_R1_001/align_summary.txt
+[2017-04-10 21:51:58] Run complete: 00:27:08 elapsed
+
+[2017-04-10 21:51:58] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-04-10 21:51:58] Checking for Bowtie
+		  Bowtie version:	 2.3.1.0
+[2017-04-10 21:51:59] Checking for Bowtie index files (transcriptome)..
+[2017-04-10 21:51:59] Checking for Bowtie index files (genome)..
+[2017-04-10 21:51:59] Checking for reference FASTA file
+[2017-04-10 21:51:59] Generating SAM header for /crex1/proj/snic2017-7-7/INBOX/IO/ref/Genome/GRCh38.p7.genome
+[2017-04-10 21:52:01] Reading known junctions from GTF file
+[2017-04-10 21:52:30] Pre-filtering multi-mapped left reads
+[2017-04-10 21:52:30] Mapping AE1_CCGTCC_L008_R1_001 to genome GRCh38.p7.genome with Bowtie2 
+[2017-04-10 22:04:04] Preparing reads
+	 left reads: min. length=55, max. length=55, 5237859 kept reads (1193601 discarded)
+[2017-04-10 22:05:26] Using pre-built transcriptome data..
+[2017-04-10 22:05:29] Mapping left_kept_reads to transcriptome gencode.v25.annotation with Bowtie2 
+[2017-04-10 22:09:22] Resuming TopHat pipeline with unmapped reads
+[2017-04-10 22:09:55] Mapping left_kept_reads.m2g_um_seg1 to genome GRCh38.p7.genome with Bowtie2 (1/2)
+[2017-04-10 22:10:15] Mapping left_kept_reads.m2g_um_seg2 to genome GRCh38.p7.genome with Bowtie2 (2/2)
+[2017-04-10 22:10:56] Retrieving sequences for splices
+[2017-04-10 22:12:29] Indexing splices
+Building a SMALL index
+[2017-04-10 22:12:51] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-04-10 22:13:01] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-04-10 22:13:12] Joining segment hits
+[2017-04-10 22:14:48] Reporting output tracks
+-----------------------------------------------
+[2017-04-10 22:19:28] A summary of the alignment counts can be found in /crex1/proj/snic2017-7-7/INBOX/IO/seqs/RNA//AE1_CCGTCC_L008_R1_001/align_summary.txt
+[2017-04-10 22:19:28] Run complete: 00:27:29 elapsed
+
+[2017-04-10 22:19:29] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-04-10 22:19:29] Checking for Bowtie
+		  Bowtie version:	 2.3.1.0
+[2017-04-10 22:19:29] Checking for Bowtie index files (transcriptome)..
+[2017-04-10 22:19:29] Checking for Bowtie index files (genome)..
+[2017-04-10 22:19:29] Checking for reference FASTA file
+[2017-04-10 22:19:29] Generating SAM header for /crex1/proj/snic2017-7-7/INBOX/IO/ref/Genome/GRCh38.p7.genome
+[2017-04-10 22:19:31] Reading known junctions from GTF file
+[2017-04-10 22:20:00] Pre-filtering multi-mapped left reads
+[2017-04-10 22:20:00] Mapping AE1_CGATGT_L008_R1_001 to genome GRCh38.p7.genome with Bowtie2 
+[2017-04-10 22:29:23] Preparing reads
+	 left reads: min. length=55, max. length=55, 7844487 kept reads (1460571 discarded)
+[2017-04-10 22:31:20] Using pre-built transcriptome data..
+[2017-04-10 22:31:23] Mapping left_kept_reads to transcriptome gencode.v25.annotation with Bowtie2 
+[2017-04-10 22:34:47] Resuming TopHat pipeline with unmapped reads
+[2017-04-10 22:35:37] Mapping left_kept_reads.m2g_um_seg1 to genome GRCh38.p7.genome with Bowtie2 (1/2)
+[2017-04-10 22:36:01] Mapping left_kept_reads.m2g_um_seg2 to genome GRCh38.p7.genome with Bowtie2 (2/2)
+[2017-04-10 22:36:55] Retrieving sequences for splices
+[2017-04-10 22:38:28] Indexing splices
+Building a SMALL index
+[2017-04-10 22:38:51] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-04-10 22:39:03] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-04-10 22:39:16] Joining segment hits
+[2017-04-10 22:40:53] Reporting output tracks
+-----------------------------------------------
+[2017-04-10 22:46:57] A summary of the alignment counts can be found in /crex1/proj/snic2017-7-7/INBOX/IO/seqs/RNA//AE1_CGATGT_L008_R1_001/align_summary.txt
+[2017-04-10 22:46:57] Run complete: 00:27:28 elapsed
+
+[2017-04-10 22:46:57] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-04-10 22:46:57] Checking for Bowtie
+		  Bowtie version:	 2.3.1.0
+[2017-04-10 22:46:57] Checking for Bowtie index files (transcriptome)..
+[2017-04-10 22:46:57] Checking for Bowtie index files (genome)..
+[2017-04-10 22:46:57] Checking for reference FASTA file
+[2017-04-10 22:46:57] Generating SAM header for /crex1/proj/snic2017-7-7/INBOX/IO/ref/Genome/GRCh38.p7.genome
+[2017-04-10 22:47:00] Reading known junctions from GTF file
+[2017-04-10 22:47:28] Pre-filtering multi-mapped left reads
+[2017-04-10 22:47:28] Mapping AE1_CGTACG_L008_R1_001 to genome GRCh38.p7.genome with Bowtie2 
+[2017-04-10 22:55:51] Preparing reads
+	 left reads: min. length=55, max. length=55, 6024609 kept reads (1266047 discarded)
+[2017-04-10 22:57:23] Using pre-built transcriptome data..
+[2017-04-10 22:57:26] Mapping left_kept_reads to transcriptome gencode.v25.annotation with Bowtie2 
+[2017-04-10 23:00:14] Resuming TopHat pipeline with unmapped reads
+[2017-04-10 23:00:51] Mapping left_kept_reads.m2g_um_seg1 to genome GRCh38.p7.genome with Bowtie2 (1/2)
+[2017-04-10 23:01:10] Mapping left_kept_reads.m2g_um_seg2 to genome GRCh38.p7.genome with Bowtie2 (2/2)
+[2017-04-10 23:01:52] Retrieving sequences for splices
+[2017-04-10 23:03:25] Indexing splices
+Building a SMALL index
+[2017-04-10 23:03:48] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-04-10 23:03:57] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-04-10 23:04:08] Joining segment hits
+[2017-04-10 23:05:44] Reporting output tracks
+-----------------------------------------------
+[2017-04-10 23:10:55] A summary of the alignment counts can be found in /crex1/proj/snic2017-7-7/INBOX/IO/seqs/RNA//AE1_CGTACG_L008_R1_001/align_summary.txt
+[2017-04-10 23:10:55] Run complete: 00:23:58 elapsed
+
+[2017-04-10 23:10:55] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-04-10 23:10:55] Checking for Bowtie
+		  Bowtie version:	 2.3.1.0
+[2017-04-10 23:10:55] Checking for Bowtie index files (transcriptome)..
+[2017-04-10 23:10:55] Checking for Bowtie index files (genome)..
+[2017-04-10 23:10:55] Checking for reference FASTA file
+[2017-04-10 23:10:55] Generating SAM header for /crex1/proj/snic2017-7-7/INBOX/IO/ref/Genome/GRCh38.p7.genome
+[2017-04-10 23:10:58] Reading known junctions from GTF file
+[2017-04-10 23:11:26] Pre-filtering multi-mapped left reads
+[2017-04-10 23:11:26] Mapping AE1_CTTGTA_L008_R1_001 to genome GRCh38.p7.genome with Bowtie2 
+[2017-04-10 23:21:46] Preparing reads
+	 left reads: min. length=55, max. length=55, 6504653 kept reads (1243107 discarded)
+[2017-04-10 23:23:23] Using pre-built transcriptome data..
+[2017-04-10 23:23:26] Mapping left_kept_reads to transcriptome gencode.v25.annotation with Bowtie2 
+[2017-04-10 23:28:15] Resuming TopHat pipeline with unmapped reads
+[2017-04-10 23:28:59] Mapping left_kept_reads.m2g_um_seg1 to genome GRCh38.p7.genome with Bowtie2 (1/2)
+[2017-04-10 23:29:22] Mapping left_kept_reads.m2g_um_seg2 to genome GRCh38.p7.genome with Bowtie2 (2/2)
+[2017-04-10 23:30:12] Retrieving sequences for splices
+[2017-04-10 23:31:44] Indexing splices
+Building a SMALL index
+[2017-04-10 23:32:07] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-04-10 23:32:18] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-04-10 23:32:31] Joining segment hits
+[2017-04-10 23:34:08] Reporting output tracks
+-----------------------------------------------
+[2017-04-10 23:39:22] A summary of the alignment counts can be found in /crex1/proj/snic2017-7-7/INBOX/IO/seqs/RNA//AE1_CTTGTA_L008_R1_001/align_summary.txt
+[2017-04-10 23:39:22] Run complete: 00:28:26 elapsed
+
+[2017-04-10 23:39:22] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-04-10 23:39:22] Checking for Bowtie
+		  Bowtie version:	 2.3.1.0
+[2017-04-10 23:39:22] Checking for Bowtie index files (transcriptome)..
+[2017-04-10 23:39:22] Checking for Bowtie index files (genome)..
+[2017-04-10 23:39:22] Checking for reference FASTA file
+[2017-04-10 23:39:22] Generating SAM header for /crex1/proj/snic2017-7-7/INBOX/IO/ref/Genome/GRCh38.p7.genome
+[2017-04-10 23:39:25] Reading known junctions from GTF file
+[2017-04-10 23:39:53] Pre-filtering multi-mapped left reads
+[2017-04-10 23:39:53] Mapping AE1_GAGTGG_L008_R1_001 to genome GRCh38.p7.genome with Bowtie2 
+[2017-04-10 23:48:27] Preparing reads
+	 left reads: min. length=55, max. length=55, 6756819 kept reads (1604314 discarded)
+[2017-04-10 23:50:12] Using pre-built transcriptome data..
+[2017-04-10 23:50:16] Mapping left_kept_reads to transcriptome gencode.v25.annotation with Bowtie2 
+[2017-04-10 23:53:25] Resuming TopHat pipeline with unmapped reads
+[2017-04-10 23:54:10] Mapping left_kept_reads.m2g_um_seg1 to genome GRCh38.p7.genome with Bowtie2 (1/2)
+[2017-04-10 23:54:35] Mapping left_kept_reads.m2g_um_seg2 to genome GRCh38.p7.genome with Bowtie2 (2/2)
+[2017-04-10 23:55:27] Retrieving sequences for splices
+[2017-04-10 23:57:00] Indexing splices
+Building a SMALL index
+[2017-04-10 23:57:23] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-04-10 23:57:34] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-04-10 23:57:46] Joining segment hits
+[2017-04-10 23:59:23] Reporting output tracks
+-----------------------------------------------
+[2017-04-11 00:04:51] A summary of the alignment counts can be found in /crex1/proj/snic2017-7-7/INBOX/IO/seqs/RNA//AE1_GAGTGG_L008_R1_001/align_summary.txt
+[2017-04-11 00:04:51] Run complete: 00:25:28 elapsed
+
+[2017-04-11 00:04:51] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-04-11 00:04:51] Checking for Bowtie
+		  Bowtie version:	 2.3.1.0
+[2017-04-11 00:04:51] Checking for Bowtie index files (transcriptome)..
+[2017-04-11 00:04:51] Checking for Bowtie index files (genome)..
+[2017-04-11 00:04:51] Checking for reference FASTA file
+[2017-04-11 00:04:51] Generating SAM header for /crex1/proj/snic2017-7-7/INBOX/IO/ref/Genome/GRCh38.p7.genome
+[2017-04-11 00:04:54] Reading known junctions from GTF file
+[2017-04-11 00:05:22] Pre-filtering multi-mapped left reads
+[2017-04-11 00:05:22] Mapping AE1_GATCAG_L008_R1_001 to genome GRCh38.p7.genome with Bowtie2 
+[2017-04-11 00:19:07] Preparing reads
+	 left reads: min. length=55, max. length=55, 6076871 kept reads (1271147 discarded)
+[2017-04-11 00:20:40] Using pre-built transcriptome data..
+[2017-04-11 00:20:43] Mapping left_kept_reads to transcriptome gencode.v25.annotation with Bowtie2 
+[2017-04-11 00:23:38] Resuming TopHat pipeline with unmapped reads
+[2017-04-11 00:24:20] Mapping left_kept_reads.m2g_um_seg1 to genome GRCh38.p7.genome with Bowtie2 (1/2)
+[2017-04-11 00:24:43] Mapping left_kept_reads.m2g_um_seg2 to genome GRCh38.p7.genome with Bowtie2 (2/2)
+[2017-04-11 00:25:32] Retrieving sequences for splices
+[2017-04-11 00:27:08] Indexing splices
+Building a SMALL index
+[2017-04-11 00:27:32] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-04-11 00:27:43] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-04-11 00:27:56] Joining segment hits
+[2017-04-11 00:29:36] Reporting output tracks
+-----------------------------------------------
+[2017-04-11 00:34:52] A summary of the alignment counts can be found in /crex1/proj/snic2017-7-7/INBOX/IO/seqs/RNA//AE1_GATCAG_L008_R1_001/align_summary.txt
+[2017-04-11 00:34:52] Run complete: 00:30:01 elapsed
+
+[2017-04-11 00:34:53] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-04-11 00:34:53] Checking for Bowtie
+		  Bowtie version:	 2.3.1.0
+[2017-04-11 00:34:53] Checking for Bowtie index files (transcriptome)..
+[2017-04-11 00:34:53] Checking for Bowtie index files (genome)..
+[2017-04-11 00:34:53] Checking for reference FASTA file
+[2017-04-11 00:34:53] Generating SAM header for /crex1/proj/snic2017-7-7/INBOX/IO/ref/Genome/GRCh38.p7.genome
+[2017-04-11 00:34:55] Reading known junctions from GTF file
+[2017-04-11 00:35:26] Pre-filtering multi-mapped left reads
+[2017-04-11 00:35:26] Mapping AE1_GCCAAT_L008_R1_001 to genome GRCh38.p7.genome with Bowtie2 
+[2017-04-11 00:53:18] Preparing reads
+	 left reads: min. length=55, max. length=55, 7235170 kept reads (1594495 discarded)
+[2017-04-11 00:55:09] Using pre-built transcriptome data..
+[2017-04-11 00:55:13] Mapping left_kept_reads to transcriptome gencode.v25.annotation with Bowtie2 
+[2017-04-11 00:58:11] Resuming TopHat pipeline with unmapped reads
+[2017-04-11 00:58:58] Mapping left_kept_reads.m2g_um_seg1 to genome GRCh38.p7.genome with Bowtie2 (1/2)
+[2017-04-11 00:59:13] Mapping left_kept_reads.m2g_um_seg2 to genome GRCh38.p7.genome with Bowtie2 (2/2)
+[2017-04-11 01:00:14] Retrieving sequences for splices
+[2017-04-11 01:01:50] Indexing splices
+Building a SMALL index
+[2017-04-11 01:02:15] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-04-11 01:02:23] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-04-11 01:02:30] Joining segment hits
+[2017-04-11 01:04:12] Reporting output tracks
+-----------------------------------------------
+[2017-04-11 01:09:23] A summary of the alignment counts can be found in /crex1/proj/snic2017-7-7/INBOX/IO/seqs/RNA//AE1_GCCAAT_L008_R1_001/align_summary.txt
+[2017-04-11 01:09:23] Run complete: 00:34:30 elapsed
+
+[2017-04-11 01:09:24] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-04-11 01:09:24] Checking for Bowtie
+		  Bowtie version:	 2.3.1.0
+[2017-04-11 01:09:24] Checking for Bowtie index files (transcriptome)..
+[2017-04-11 01:09:24] Checking for Bowtie index files (genome)..
+[2017-04-11 01:09:24] Checking for reference FASTA file
+[2017-04-11 01:09:24] Generating SAM header for /crex1/proj/snic2017-7-7/INBOX/IO/ref/Genome/GRCh38.p7.genome
+[2017-04-11 01:09:26] Reading known junctions from GTF file
+[2017-04-11 01:09:55] Pre-filtering multi-mapped left reads
+[2017-04-11 01:09:55] Mapping AE1_GGCTAC_L008_R1_001 to genome GRCh38.p7.genome with Bowtie2 
+[2017-04-11 01:25:32] Preparing reads
+	 left reads: min. length=55, max. length=55, 6756471 kept reads (1802419 discarded)
+[2017-04-11 01:27:20] Using pre-built transcriptome data..
+[2017-04-11 01:27:24] Mapping left_kept_reads to transcriptome gencode.v25.annotation with Bowtie2 
+[2017-04-11 01:30:07] Resuming TopHat pipeline with unmapped reads
+[2017-04-11 01:30:46] Mapping left_kept_reads.m2g_um_seg1 to genome GRCh38.p7.genome with Bowtie2 (1/2)
+[2017-04-11 01:31:01] Mapping left_kept_reads.m2g_um_seg2 to genome GRCh38.p7.genome with Bowtie2 (2/2)
+[2017-04-11 01:31:25] Retrieving sequences for splices
+[2017-04-11 01:34:36] Indexing splices
+Building a SMALL index
+[2017-04-11 01:35:42] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-04-11 01:35:54] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-04-11 01:36:08] Joining segment hits
+[2017-04-11 01:37:35] Reporting output tracks
+-----------------------------------------------
+[2017-04-11 01:43:19] A summary of the alignment counts can be found in /crex1/proj/snic2017-7-7/INBOX/IO/seqs/RNA//AE1_GGCTAC_L008_R1_001/align_summary.txt
+[2017-04-11 01:43:19] Run complete: 00:33:55 elapsed
+
+[2017-04-11 01:43:19] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-04-11 01:43:19] Checking for Bowtie
+		  Bowtie version:	 2.3.1.0
+[2017-04-11 01:43:19] Checking for Bowtie index files (transcriptome)..
+[2017-04-11 01:43:19] Checking for Bowtie index files (genome)..
+[2017-04-11 01:43:19] Checking for reference FASTA file
+[2017-04-11 01:43:19] Generating SAM header for /crex1/proj/snic2017-7-7/INBOX/IO/ref/Genome/GRCh38.p7.genome
+[2017-04-11 01:43:22] Reading known junctions from GTF file
+[2017-04-11 01:43:52] Pre-filtering multi-mapped left reads
+[2017-04-11 01:43:52] Mapping AE1_GTCCGC_L008_R1_001 to genome GRCh38.p7.genome with Bowtie2 
+[2017-04-11 01:58:10] Preparing reads
+	 left reads: min. length=55, max. length=55, 6172802 kept reads (1117417 discarded)
+[2017-04-11 01:59:43] Using pre-built transcriptome data..
+[2017-04-11 01:59:47] Mapping left_kept_reads to transcriptome gencode.v25.annotation with Bowtie2 
+[2017-04-11 02:02:38] Resuming TopHat pipeline with unmapped reads
+[2017-04-11 02:03:21] Mapping left_kept_reads.m2g_um_seg1 to genome GRCh38.p7.genome with Bowtie2 (1/2)
+[2017-04-11 02:03:43] Mapping left_kept_reads.m2g_um_seg2 to genome GRCh38.p7.genome with Bowtie2 (2/2)
+[2017-04-11 02:04:32] Retrieving sequences for splices
+[2017-04-11 02:06:08] Indexing splices
+Building a SMALL index
+[2017-04-11 02:06:33] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-04-11 02:06:42] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-04-11 02:06:54] Joining segment hits
+[2017-04-11 02:08:34] Reporting output tracks
+-----------------------------------------------
+[2017-04-11 02:13:52] A summary of the alignment counts can be found in /crex1/proj/snic2017-7-7/INBOX/IO/seqs/RNA//AE1_GTCCGC_L008_R1_001/align_summary.txt
+[2017-04-11 02:13:52] Run complete: 00:30:32 elapsed
+
+[2017-04-11 02:13:52] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-04-11 02:13:52] Checking for Bowtie
+		  Bowtie version:	 2.3.1.0
+[2017-04-11 02:13:52] Checking for Bowtie index files (transcriptome)..
+[2017-04-11 02:13:52] Checking for Bowtie index files (genome)..
+[2017-04-11 02:13:52] Checking for reference FASTA file
+[2017-04-11 02:13:52] Generating SAM header for /crex1/proj/snic2017-7-7/INBOX/IO/ref/Genome/GRCh38.p7.genome
+[2017-04-11 02:13:55] Reading known junctions from GTF file
+[2017-04-11 02:14:25] Pre-filtering multi-mapped left reads
+[2017-04-11 02:14:25] Mapping AE1_GTGAAA_L008_R1_001 to genome GRCh38.p7.genome with Bowtie2 
+[2017-04-11 02:23:38] Preparing reads
+	 left reads: min. length=55, max. length=55, 6687638 kept reads (1711855 discarded)
+[2017-04-11 02:25:23] Using pre-built transcriptome data..
+[2017-04-11 02:25:27] Mapping left_kept_reads to transcriptome gencode.v25.annotation with Bowtie2 
+[2017-04-11 02:30:34] Resuming TopHat pipeline with unmapped reads
+[2017-04-11 02:31:21] Mapping left_kept_reads.m2g_um_seg1 to genome GRCh38.p7.genome with Bowtie2 (1/2)
+[2017-04-11 02:31:38] Mapping left_kept_reads.m2g_um_seg2 to genome GRCh38.p7.genome with Bowtie2 (2/2)
+[2017-04-11 02:32:34] Retrieving sequences for splices
+[2017-04-11 02:34:11] Indexing splices
+Building a SMALL index
+[2017-04-11 02:34:35] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-04-11 02:34:46] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-04-11 02:34:59] Joining segment hits
+[2017-04-11 02:36:39] Reporting output tracks
+-----------------------------------------------
+[2017-04-11 02:42:14] A summary of the alignment counts can be found in /crex1/proj/snic2017-7-7/INBOX/IO/seqs/RNA//AE1_GTGAAA_L008_R1_001/align_summary.txt
+[2017-04-11 02:42:14] Run complete: 00:28:21 elapsed
+
+[2017-04-11 02:42:15] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-04-11 02:42:15] Checking for Bowtie
+		  Bowtie version:	 2.3.1.0
+[2017-04-11 02:42:15] Checking for Bowtie index files (transcriptome)..
+[2017-04-11 02:42:15] Checking for Bowtie index files (genome)..
+[2017-04-11 02:42:15] Checking for reference FASTA file
+[2017-04-11 02:42:15] Generating SAM header for /crex1/proj/snic2017-7-7/INBOX/IO/ref/Genome/GRCh38.p7.genome
+[2017-04-11 02:42:17] Reading known junctions from GTF file
+[2017-04-11 02:42:47] Pre-filtering multi-mapped left reads
+[2017-04-11 02:42:47] Mapping AE1_GTGGCC_L008_R1_001 to genome GRCh38.p7.genome with Bowtie2 
+[2017-04-11 02:56:32] Preparing reads
+	 left reads: min. length=55, max. length=55, 6189711 kept reads (1124006 discarded)
+[2017-04-11 02:58:01] Using pre-built transcriptome data..
+[2017-04-11 02:58:06] Mapping left_kept_reads to transcriptome gencode.v25.annotation with Bowtie2 
+[2017-04-11 03:00:38] Resuming TopHat pipeline with unmapped reads
+[2017-04-11 03:01:21] Mapping left_kept_reads.m2g_um_seg1 to genome GRCh38.p7.genome with Bowtie2 (1/2)
+[2017-04-11 03:01:40] Mapping left_kept_reads.m2g_um_seg2 to genome GRCh38.p7.genome with Bowtie2 (2/2)
+[2017-04-11 03:02:21] Retrieving sequences for splices
+[2017-04-11 03:03:53] Indexing splices
+Building a SMALL index
+[2017-04-11 03:04:14] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-04-11 03:04:20] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-04-11 03:04:26] Joining segment hits
+[2017-04-11 03:06:04] Reporting output tracks
+-----------------------------------------------
+[2017-04-11 03:10:48] A summary of the alignment counts can be found in /crex1/proj/snic2017-7-7/INBOX/IO/seqs/RNA//AE1_GTGGCC_L008_R1_001/align_summary.txt
+[2017-04-11 03:10:48] Run complete: 00:28:33 elapsed
+
+[2017-04-11 03:10:48] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-04-11 03:10:48] Checking for Bowtie
+		  Bowtie version:	 2.3.1.0
+[2017-04-11 03:10:48] Checking for Bowtie index files (transcriptome)..
+[2017-04-11 03:10:48] Checking for Bowtie index files (genome)..
+[2017-04-11 03:10:48] Checking for reference FASTA file
+[2017-04-11 03:10:48] Generating SAM header for /crex1/proj/snic2017-7-7/INBOX/IO/ref/Genome/GRCh38.p7.genome
+[2017-04-11 03:10:51] Reading known junctions from GTF file
+[2017-04-11 03:11:18] Pre-filtering multi-mapped left reads
+[2017-04-11 03:11:18] Mapping AE1_GTTTCG_L008_R1_001 to genome GRCh38.p7.genome with Bowtie2 
+[2017-04-11 03:17:18] Preparing reads
+	 left reads: min. length=55, max. length=55, 6349711 kept reads (1219181 discarded)
+[2017-04-11 03:18:51] Using pre-built transcriptome data..
+[2017-04-11 03:18:54] Mapping left_kept_reads to transcriptome gencode.v25.annotation with Bowtie2 
+[2017-04-11 03:23:24] Resuming TopHat pipeline with unmapped reads
+[2017-04-11 03:24:08] Mapping left_kept_reads.m2g_um_seg1 to genome GRCh38.p7.genome with Bowtie2 (1/2)
+[2017-04-11 03:24:28] Mapping left_kept_reads.m2g_um_seg2 to genome GRCh38.p7.genome with Bowtie2 (2/2)
+[2017-04-11 03:25:13] Retrieving sequences for splices
+[2017-04-11 03:26:43] Indexing splices
+Building a SMALL index
+[2017-04-11 03:27:04] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-04-11 03:27:13] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-04-11 03:27:24] Joining segment hits
+[2017-04-11 03:28:59] Reporting output tracks
+-----------------------------------------------
+[2017-04-11 03:33:41] A summary of the alignment counts can be found in /crex1/proj/snic2017-7-7/INBOX/IO/seqs/RNA//AE1_GTTTCG_L008_R1_001/align_summary.txt
+[2017-04-11 03:33:41] Run complete: 00:22:52 elapsed
+
+[2017-04-11 03:33:41] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-04-11 03:33:41] Checking for Bowtie
+		  Bowtie version:	 2.3.1.0
+[2017-04-11 03:33:41] Checking for Bowtie index files (transcriptome)..
+[2017-04-11 03:33:41] Checking for Bowtie index files (genome)..
+[2017-04-11 03:33:41] Checking for reference FASTA file
+[2017-04-11 03:33:41] Generating SAM header for /crex1/proj/snic2017-7-7/INBOX/IO/ref/Genome/GRCh38.p7.genome
+[2017-04-11 03:33:45] Reading known junctions from GTF file
+[2017-04-11 03:34:12] Pre-filtering multi-mapped left reads
+[2017-04-11 03:34:12] Mapping AE1_TAGCTT_L008_R1_001 to genome GRCh38.p7.genome with Bowtie2 
+[2017-04-11 03:41:45] Preparing reads
+	 left reads: min. length=55, max. length=55, 6847019 kept reads (1806424 discarded)
+[2017-04-11 03:43:31] Using pre-built transcriptome data..
+[2017-04-11 03:43:35] Mapping left_kept_reads to transcriptome gencode.v25.annotation with Bowtie2 
+[2017-04-11 03:46:37] Resuming TopHat pipeline with unmapped reads
+[2017-04-11 03:47:23] Mapping left_kept_reads.m2g_um_seg1 to genome GRCh38.p7.genome with Bowtie2 (1/2)
+[2017-04-11 03:47:48] Mapping left_kept_reads.m2g_um_seg2 to genome GRCh38.p7.genome with Bowtie2 (2/2)
+slurmstepd: error: Warning: CPU load on host r206 is 54.24
+[2017-04-11 03:48:38] Retrieving sequences for splices
+[2017-04-11 03:50:39] Indexing splices
+Building a SMALL index
+[2017-04-11 03:51:28] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-04-11 03:51:35] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-04-11 03:51:48] Joining segment hits
+[2017-04-11 03:53:22] Reporting output tracks
+-----------------------------------------------
+[2017-04-11 03:58:35] A summary of the alignment counts can be found in /crex1/proj/snic2017-7-7/INBOX/IO/seqs/RNA//AE1_TAGCTT_L008_R1_001/align_summary.txt
+[2017-04-11 03:58:35] Run complete: 00:24:53 elapsed
+
+[2017-04-11 03:58:35] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-04-11 03:58:35] Checking for Bowtie
+		  Bowtie version:	 2.3.1.0
+[2017-04-11 03:58:35] Checking for Bowtie index files (transcriptome)..
+[2017-04-11 03:58:35] Checking for Bowtie index files (genome)..
+[2017-04-11 03:58:35] Checking for reference FASTA file
+[2017-04-11 03:58:35] Generating SAM header for /crex1/proj/snic2017-7-7/INBOX/IO/ref/Genome/GRCh38.p7.genome
+[2017-04-11 03:58:38] Reading known junctions from GTF file
+[2017-04-11 03:59:05] Pre-filtering multi-mapped left reads
+[2017-04-11 03:59:05] Mapping AE1_TGACCA_L008_R1_001 to genome GRCh38.p7.genome with Bowtie2 
+[2017-04-11 04:04:45] Preparing reads
+	 left reads: min. length=55, max. length=55, 1161416 kept reads (7617791 discarded)
+[2017-04-11 04:06:31] Using pre-built transcriptome data..
+[2017-04-11 04:06:34] Mapping left_kept_reads to transcriptome gencode.v25.annotation with Bowtie2 
+[2017-04-11 04:07:25] Resuming TopHat pipeline with unmapped reads
+[2017-04-11 04:07:36] Mapping left_kept_reads.m2g_um_seg1 to genome GRCh38.p7.genome with Bowtie2 (1/2)
+[2017-04-11 04:07:53] Mapping left_kept_reads.m2g_um_seg2 to genome GRCh38.p7.genome with Bowtie2 (2/2)
+[2017-04-11 04:08:17] Retrieving sequences for splices
+[2017-04-11 04:09:47] Indexing splices
+Building a SMALL index
+[2017-04-11 04:10:07] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-04-11 04:10:15] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-04-11 04:10:22] Joining segment hits
+[2017-04-11 04:11:52] Reporting output tracks
+-----------------------------------------------
+[2017-04-11 04:14:14] A summary of the alignment counts can be found in /crex1/proj/snic2017-7-7/INBOX/IO/seqs/RNA//AE1_TGACCA_L008_R1_001/align_summary.txt
+[2017-04-11 04:14:14] Run complete: 00:15:39 elapsed
+
+[2017-04-11 04:14:14] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-04-11 04:14:14] Checking for Bowtie
+		  Bowtie version:	 2.3.1.0
+[2017-04-11 04:14:14] Checking for Bowtie index files (transcriptome)..
+[2017-04-11 04:14:14] Checking for Bowtie index files (genome)..
+[2017-04-11 04:14:14] Checking for reference FASTA file
+[2017-04-11 04:14:14] Generating SAM header for /crex1/proj/snic2017-7-7/INBOX/IO/ref/Genome/GRCh38.p7.genome
+[2017-04-11 04:14:17] Reading known junctions from GTF file
+[2017-04-11 04:14:45] Pre-filtering multi-mapped left reads
+[2017-04-11 04:14:45] Mapping AE1_TTAGGC_L008_R1_001 to genome GRCh38.p7.genome with Bowtie2 
+slurmstepd: error: Warning: CPU load on host r206 is 54.92
+[2017-04-11 04:21:07] Preparing reads
+	 left reads: min. length=55, max. length=55, 6879767 kept reads (1739260 discarded)
+[2017-04-11 04:22:53] Using pre-built transcriptome data..
+[2017-04-11 04:22:56] Mapping left_kept_reads to transcriptome gencode.v25.annotation with Bowtie2 
+[2017-04-11 04:25:57] Resuming TopHat pipeline with unmapped reads
+[2017-04-11 04:26:38] Mapping left_kept_reads.m2g_um_seg1 to genome GRCh38.p7.genome with Bowtie2 (1/2)
+[2017-04-11 04:27:03] Mapping left_kept_reads.m2g_um_seg2 to genome GRCh38.p7.genome with Bowtie2 (2/2)
+[2017-04-11 04:27:48] Retrieving sequences for splices
+[2017-04-11 04:29:18] Indexing splices
+Building a SMALL index
+[2017-04-11 04:29:38] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-04-11 04:29:47] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-04-11 04:30:00] Joining segment hits
+[2017-04-11 04:31:33] Reporting output tracks
+-----------------------------------------------
+[2017-04-11 04:37:02] A summary of the alignment counts can be found in /crex1/proj/snic2017-7-7/INBOX/IO/seqs/RNA//AE1_TTAGGC_L008_R1_001/align_summary.txt
+[2017-04-11 04:37:02] Run complete: 00:22:47 elapsed
+slurmstepd: error: Exceeded step memory limit at some point.
