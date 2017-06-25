@@ -3,7 +3,8 @@
 #Create bedgraph for UCSC
 
 module load bioinfo-tools
-module load BEDTools
+module load BEDTools/2.26.0
+module load samtools/1.3
 
 cat SampleSheet_mRNA.tsv \
   | awk -v OFS="\t" '{if ($1~/_[1,2]R_/)
@@ -27,10 +28,12 @@ do
       fname="neg"
     fi
 
+    samtools sort AE1_${i}_L008_R1_001/AE1_${i}_L008_R1_001.bam -o AE1_${i}_L008_R1_001/AE1_${i}_L008_R1_001.sorted.bam
+
     trackTitle=`echo -e "'name=\"${name}${s}\" visibility=4 color=${trackCol} description=\"${name}\"'"`
 
     eval bedtools genomecov \
-      -ibam AE1_${i}_L008_R1_001/AE1_${i}_L008_R1_001.bam \
+      -ibam AE1_${i}_L008_R1_001/AE1_${i}_L008_R1_001.sorted.bam \
       -bg \
       -split \
       -strand ${s} \
@@ -40,7 +43,7 @@ do
     > AE1_${i}_L008_R1_001.bam.${fname}.bg.split
     
     eval bedtools genomecov \
-      -ibam AE1_${i}_L008_R1_001/AE1_${i}_L008_R1_001.bam \
+      -ibam AE1_${i}_L008_R1_001/AE1_${i}_L008_R1_001.sorted.bam \
       -bg \
       -split \
       -trackline \
